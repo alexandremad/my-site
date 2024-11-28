@@ -1,0 +1,16 @@
+# Arquivo robots.txt para site de recuperação de manequins em fibra de vidro em Brasília, DF e entorno
+
+# Permitir todos os robôs acessarem o site
+User-agent: *
+
+# Bloquear páginas administrativas ou sensíveis
+Disallow: /admin/
+Disallow: /login/
+Disallow: /scripts/
+Disallow: /privado/
+
+# Permitir tudo no restante do site
+Allow: /
+
+# Especificar o local do sitemap para rastreamento eficiente
+Sitemap: https://www.recuperacaodemanequins.com.br/sitemap.xml

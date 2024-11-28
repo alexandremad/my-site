@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #c4c3c3;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+    color: #222;
+    
+}
+
+
+#sobre {
+    background-image: url('images/manequim2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 4rem;
+    color: rgb(12, 134, 59); 
+}
+
+#sobre h2, #sobre p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 20px;
+}
+
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    background: #d6d5d5;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex; 
+    gap: 1rem;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+ form button {
+    display: block;
+    width: 20%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+form button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+a i {
+    text-decoration: none;
+    color: #25D366;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.5rem; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+}
